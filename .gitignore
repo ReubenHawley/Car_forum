@@ -29,4 +29,6 @@ __pycache__/
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
-car_forum/config/
+
+### ignore the config file where django keys are kept ###
+config/
