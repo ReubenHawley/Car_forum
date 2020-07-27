@@ -12,13 +12,8 @@ def home(request):
 
 def about(request):
     context = {
-        "posts": Post.objects.all()
+        "about_us": "this is where we tell you about revver "
     }
     return render(request, "forum/About.html",context)
 
 
-def Mycar(request):
-    context = {
-        "posts": Post.objects.all()
-    }
-    return render(request, "forum/Mycar.html", context)
