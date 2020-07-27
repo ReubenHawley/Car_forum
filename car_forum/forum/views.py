@@ -19,6 +19,6 @@ def about(request):
 
 def Mycar(request):
     context = {
-        "posts": posts
+        "posts": Post.objects.all()
     }
     return render(request, "forum/Mycar.html", context)
